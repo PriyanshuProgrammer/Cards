@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    overflow: hidden;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("devil.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    background-image: url("images/card.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
